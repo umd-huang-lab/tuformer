@@ -32,7 +32,7 @@ We address the problem in the following steps
 
 In MHSA, the **weights are collaborating in the form of a kronecker product** following the heuristics. Then it is natural to make the $$C$$ fully trainable for higher expressive power.
 
-<img src="https://i.imgur.com/N1XzFzO.png" width="500"><img src="https://i.imgur.com/1Y8Jf4k.png" width="500">
+<img src="https://i.imgur.com/N1XzFzO.png" width="300"><img src="https://i.imgur.com/1Y8Jf4k.png" width="300">
 
 
 - the number of heads generalizes to the stable rank of the fully trainable component, making the structure data-driven.
