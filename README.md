@@ -22,7 +22,7 @@ We address the problem in the following steps
 - Orientation invarant, obtains universally representation no matter how you represent the data objects (in row vectors or column vectors).
 - Clear information flow among components.
 
-<img src="https://github.com/umd-huang-lab/tuformer/blob/main/img/attention-module.png" width="500"><img src="https://i.imgur.com/7qHW4qz.png" width="500">
+<img src="https://github.com/umd-huang-lab/tuformer/blob/main/img/attention-module.png" width="320"><img src="https://i.imgur.com/7qHW4qz.png" width="320">
 
 
 
@@ -32,7 +32,7 @@ We address the problem in the following steps
 
 In MHSA, the **weights are collaborating in the form of a kronecker product** following the heuristics. Then it is natural to make the $$C$$ fully trainable for higher expressive power.
 
-<img src="https://i.imgur.com/N1XzFzO.png" width="300"><img src="https://i.imgur.com/1Y8Jf4k.png" width="300">
+<img src="https://i.imgur.com/N1XzFzO.png" width="320"><img src="https://i.imgur.com/1Y8Jf4k.png" width="320">
 
 
 - the number of heads generalizes to the stable rank of the fully trainable component, making the structure data-driven.
@@ -43,9 +43,9 @@ In MHSA, the **weights are collaborating in the form of a kronecker product** fo
 #### Step 3: Identify a design space and possible more efficient/general variations
 
 
-<img src="https://i.imgur.com/bzOLcLK.png" width="500"><img src="https://i.imgur.com/jqwfE1A.png" width="500">
+<img src="https://i.imgur.com/bzOLcLK.png" width="320"><img src="https://i.imgur.com/jqwfE1A.png" width="320">
 
-<img src="https://i.imgur.com/XHY6Wb2.png" width="500">
+<img src="https://i.imgur.com/XHY6Wb2.png" width="400">
 
 
 
