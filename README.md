@@ -6,11 +6,12 @@ Link to our paper on [arXiv].
 
 [arXiv]: https://openreview.net/forum?id=V0A5g83gdQ_
 
+---
+
 ### Abstract
 
 Transformers are neural network architectures that achieve remarkable performance in many areas. However, the core component of Transformers, multi-head self- attention (MHSA), is mainly derived from heuristics, and the interactions across its components are not well understood. However, the core component of Transformers, multi-head self- attention (MHSA), is mainly derived from heuristics, and the interactions across its components are not well understood. To address the problem, we first introduce a mathematically rigorous and yet intuitive tensor diagram representation of MHSA. Guided by tensor diagram representations, we propose a novel design, namely Tunable Transformers (Tuformers), by allowing data-driven weights across heads, whereas MHSA adopts pre-defined and fixed weights across heads, as will be explained in our paper. Tuformers naturally reveal a flexible design space that a user, depending on the needs, can choose a structure that has either improved performance (generalization error) or higher model efficiency. Any pre-trained Transformer can be an initialization of the corresponding Tuformer with trainable number of heads for efficient training and fine-tuning. Tuformers universally outperform Transformers on various tasks across multiple domains under a wide range of model sizes.
 
----
 
 ### Overview
 
