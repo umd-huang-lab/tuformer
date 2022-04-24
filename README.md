@@ -1,6 +1,6 @@
 # tuformer
 
-To run tuformers, register tuformer module to any Transformer related architectures. 
+To run tuformers, register tuformer module to any Transformer related architectures.
 
 For example, to perform NMT task on tuformer version of iwslt_de_en model, run commands below. Other setup remains the same.
 
@@ -18,3 +18,5 @@ CUDA_VISIBLE_DEVICES=0 fairseq-train \
     --eval-bleu-remove-bpe \
     --eval-bleu-print-samples \
     --best-checkpoint-metric bleu --maximize-best-checkpoint-metric
+
+test add
